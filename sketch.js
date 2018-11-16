@@ -11,7 +11,7 @@ function setup() {
   noStroke();
   textSize(24);
   textAlign(CENTER);
-  text('Drag an image file onto the canvas.', width / 2, height / 2);
+  text('Arraste uma imagem para classificar', width / 2, height / 2);
 }
 
 function modelReady() {
